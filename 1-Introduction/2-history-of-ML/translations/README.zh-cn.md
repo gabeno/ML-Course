@@ -3,7 +3,7 @@
 ![机器学习历史概述](../../../sketchnotes/ml-history.png)
 > 作者 [Tomomi Imura](https://www.twitter.com/girlie_mac)
 
-## [课前测验](https://white-water-09ec41f0f.azurestaticapps.net/quiz/3/)
+## [课前测验](https://gray-sand-07a10f403.1.azurestaticapps.net/quiz/3/)
 
 在本课中，我们将走过机器学习和人工智能历史上的主要里程碑。 
 
@@ -73,7 +73,7 @@ Alan Turing，一个真正杰出的人，[在 2019 年被公众投票选出](htt
 
 ## 1980s 专家系统
 
-随着这个领域的发展，它对商业的好处变得越来越明显，在 20 世纪 80 年代，‘专家系统’的泛滥也是如此。“专家系统是首批真正成功的人工智能 (AI) 软件形式之一。” （[来源](https://wikipedia.org/wiki/Expert_system)）。
+随着这个领域的发展，它对商业的好处变得越来越明显，在 20 世纪 80 年代，‘专家系统’也开始广泛流行起来。“专家系统是首批真正成功的人工智能 (AI) 软件形式之一。” （[来源](https://wikipedia.org/wiki/Expert_system)）。
 
 这种类型的系统实际上是混合系统，部分由定义业务需求的规则引擎和利用规则系统推断新事实的推理引擎组成。
 
@@ -101,7 +101,7 @@ Alan Turing，一个真正杰出的人，[在 2019 年被公众投票选出](htt
 
 深入了解这些历史时刻之一，并更多地了解它们背后的人。这里有许多引人入胜的人物，没有一项科学发现是在文化真空中创造出来的。你发现了什么？
 
-## [课后测验](https://white-water-09ec41f0f.azurestaticapps.net/quiz/4/)
+## [课后测验](https://gray-sand-07a10f403.1.azurestaticapps.net/quiz/4/)
 
 ## 复习与自学
 

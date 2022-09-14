@@ -5,7 +5,7 @@ Proses membangun, menggunakan, dan memelihara model machine learning dan data ya
 - Memahami gambaran dari proses yang mendasari machine learning.
 - Menjelajahi konsep dasar seperti '*models*', '*predictions*', dan '*training data*'. 
   
-## [Quiz Pra-Pelajaran](https://white-water-09ec41f0f.azurestaticapps.net/quiz/7/)
+## [Quiz Pra-Pelajaran](https://gray-sand-07a10f403.1.azurestaticapps.net/quiz/7/)
 ## Pengantar
 
 Gambaran membuat proses machine learning (ML) terdiri dari sejumlah langkah: 
@@ -24,7 +24,7 @@ Komputer sangat ahli dalam menemukan pola tersembunyi dalam data. Hal ini sangat
 
 Namun, ketika banyak variabel lain dimasukkan ke dalam persamaan, model ML mungkin terbukti lebih efisien untuk memprediksi tingkat mortalitas di masa depan berdasarkan riwayat kesehatan masa lalu. Contoh yang lebih menyenangkan mungkin membuat prediksi cuaca untuk bulan April di lokasi tertentu berdasarkan data yang mencakup garis lintang, garis bujur, perubahan iklim, kedekatan dengan laut, pola aliran udara (Jet Stream), dan banyak lagi. 
 
-✅ [Slide deck](https://www2.cisl.ucar.edu/sites/default/files/0900%20June%2024%20Haupt_0.pdf) ini menawarkan perspektif historis pada model cuaca dengan menggunakan ML dalam analisis cuaca.
+✅ [Slide deck](https://www2.cisl.ucar.edu/sites/default/files/2021-10/0900%20June%2024%20Haupt_0.pdf) ini menawarkan perspektif historis pada model cuaca dengan menggunakan ML dalam analisis cuaca.
 
 ## Tugas Pra-Pembuatan
 
@@ -100,7 +100,7 @@ Dalam pelajaran ini, Kamu akan menemukan cara untuk menggunakan langkah-langkah 
 
 Gambarlah sebuah flow chart yang mencerminkan langkah-langkah seorang praktisi ML. Di mana kamu melihat diri kamu saat ini dalam prosesnya? Di mana kamu memprediksi kamu akan menemukan kesulitan? Apa yang tampak mudah bagi kamu? 
 
-## [Quiz Pra-Pelajaran](https://white-water-09ec41f0f.azurestaticapps.net/quiz/8/)
+## [Quiz Pra-Pelajaran](https://gray-sand-07a10f403.1.azurestaticapps.net/quiz/8/)
 
 ## Ulasan & Belajar Mandiri
 

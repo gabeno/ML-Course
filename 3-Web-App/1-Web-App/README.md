@@ -11,7 +11,7 @@ We will continue our use of notebooks to clean data and train our model, but you
 
 To do this, you need to build a web app using Flask.
 
-## [Pre-lecture quiz](https://white-water-09ec41f0f.azurestaticapps.net/quiz/17/)
+## [Pre-lecture quiz](https://gray-sand-07a10f403.1.azurestaticapps.net/quiz/17/)
 
 ## Building an app
 
@@ -25,7 +25,7 @@ There are many questions you need to ask:
 - **Where will the model reside?** In the cloud or locally?
 - **Offline support.** Does the app have to work offline?
 - **What technology was used to train the model?** The chosen technology may influence the tooling you need to use.
-    - **Using Tensor flow.** If you are training a model using TensorFlow, for example, that ecosystem provides the ability to convert a TensorFlow model for use in a web app by using [TensorFlow.js](https://www.tensorflow.org/js/).
+    - **Using TensorFlow.** If you are training a model using TensorFlow, for example, that ecosystem provides the ability to convert a TensorFlow model for use in a web app by using [TensorFlow.js](https://www.tensorflow.org/js/).
     - **Using PyTorch.** If you are building a model using a library such as [PyTorch](https://pytorch.org/), you have the option to export it in [ONNX](https://onnx.ai/) (Open Neural Network Exchange) format for use in JavaScript web apps that can use the [Onnx Runtime](https://www.onnxruntime.ai/). This option will be explored in a future lesson for a Scikit-learn-trained model.
     - **Using Lobe.ai or Azure Custom Vision.** If you are using an ML SaaS (Software as a Service) system such as [Lobe.ai](https://lobe.ai/) or [Azure Custom Vision](https://azure.microsoft.com/services/cognitive-services/custom-vision-service/?WT.mc_id=academic-15963-cxa) to train a model, this type of software provides ways to export the model for many platforms, including building a bespoke API to be queried in the cloud by your online application.
 
@@ -281,7 +281,7 @@ Now you can build a Flask app to call your model and return similar results, but
     
     app = Flask(__name__)
     
-    model = pickle.load(open("../ufo-model.pkl", "rb"))
+    model = pickle.load(open("./ufo-model.pkl", "rb"))
     
     
     @app.route("/")
@@ -334,7 +334,7 @@ In a professional setting, you can see how good communication is necessary betwe
 
 Instead of working in a notebook and importing the model to the Flask app, you could train the model right within the Flask app! Try converting your Python code in the notebook, perhaps after your data is cleaned, to train the model from within the app on a route called `train`. What are the pros and cons of pursuing this method?
 
-## [Post-lecture quiz](https://white-water-09ec41f0f.azurestaticapps.net/quiz/18/)
+## [Post-lecture quiz](https://gray-sand-07a10f403.1.azurestaticapps.net/quiz/18/)
 
 ## Review & Self Study
 
