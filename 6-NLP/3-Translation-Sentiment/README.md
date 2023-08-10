@@ -143,7 +143,7 @@ Your task is to determine, using sentiment polarity, if *Pride and Prejudice* ha
    1. If the polarity is 1 or -1 store the sentence in an array or list of positive or negative messages
 5. At the end, print out all the positive sentences and negative sentences (separately) and the number of each.
 
-Here is a sample [solution](solution/notebook.ipynb).
+Here is a sample [solution](https://github.com/microsoft/ML-For-Beginners/blob/main/6-NLP/3-Translation-Sentiment/solution/notebook.ipynb).
 
 ✅ Knowledge Check
 
@@ -180,7 +180,7 @@ Can you make Marvin even better by extracting other features from the user input
 
 ## Review & Self Study
 
-There are many ways to extract sentiment from text. Think of the business applications that might make use of this technique. Think about how it can go awry. Read more about sophisticated enterprise-ready systems that analyze sentiment such as [Azure Text Analysis](https://docs.microsoft.com/azure/cognitive-services/Text-Analytics/how-tos/text-analytics-how-to-sentiment-analysis?tabs=version-3-1?WT.mc_id=academic-15963-cxa). Test some of the Pride and Prejudice sentences above and see if it can detect nuance.
+There are many ways to extract sentiment from text. Think of the business applications that might make use of this technique. Think about how it can go awry. Read more about sophisticated enterprise-ready systems that analyze sentiment such as [Azure Text Analysis](https://docs.microsoft.com/azure/cognitive-services/Text-Analytics/how-tos/text-analytics-how-to-sentiment-analysis?tabs=version-3-1?WT.mc_id=academic-77952-leestott). Test some of the Pride and Prejudice sentences above and see if it can detect nuance.
 
 ## Assignment 
 

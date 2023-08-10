@@ -51,7 +51,7 @@ In this section, you will need, and use:
    python -m textblob.download_corpora
    ```
 
-> 💡 Tip: You can run Python directly in VS Code environments. Check the [docs](https://code.visualstudio.com/docs/languages/python?WT.mc_id=academic-15963-cxa) for more information.
+> 💡 Tip: You can run Python directly in VS Code environments. Check the [docs](https://code.visualstudio.com/docs/languages/python?WT.mc_id=academic-77952-leestott) for more information.
 
 ## Talking to machines
 
@@ -133,7 +133,7 @@ Let's create the bot next. We'll start by defining some phrases.
     It was nice talking to you, goodbye!
     ```
 
-    One possible solution to the task is [here](solution/bot.py)
+    One possible solution to the task is [here](https://github.com/microsoft/ML-For-Beginners/blob/main/6-NLP/1-Introduction-to-NLP/solution/bot.py)
 
     ✅ Stop and consider
 

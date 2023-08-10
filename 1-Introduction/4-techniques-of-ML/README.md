@@ -7,6 +7,10 @@ The process of building, using, and maintaining machine learning models and the 
 
 ## [Pre-lecture quiz](https://gray-sand-07a10f403.1.azurestaticapps.net/quiz/7/)
 
+[![ML for beginners - Techniques of Machine Learning](https://img.youtube.com/vi/4NGM0U2ZSHU/0.jpg)](https://youtu.be/4NGM0U2ZSHU "ML for beginners - Techniques of Machine Learning")
+
+> 🎥 Click the image above for a short video working through this lesson.
+
 ## Introduction
 
 On a high level, the craft of creating machine learning (ML) processes is comprised of a number of steps:
@@ -89,7 +93,7 @@ In the context of machine learning, model fitting refers to the accuracy of the 
 
 ## Parameter tuning
 
-Once your initial training is complete, observe the quality of the model and consider improving it by tweaking its 'hyperparameters'. Read more about the process [in the documentation](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-tune-hyperparameters?WT.mc_id=academic-15963-cxa).
+Once your initial training is complete, observe the quality of the model and consider improving it by tweaking its 'hyperparameters'. Read more about the process [in the documentation](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-tune-hyperparameters?WT.mc_id=academic-77952-leestott).
 
 ## Prediction
 

@@ -26,7 +26,7 @@ Alternately, you could use it for grouping search results - by shopping links, i
 
 ✅ Once your data is organized in clusters, you assign it a cluster Id, and this technique can be useful when preserving a dataset's privacy; you can instead refer to a data point by its cluster id, rather than by more revealing identifiable data. Can you think of other reasons why you'd refer to a cluster Id rather than other elements of the cluster to identify it?
 
-Deepen your understanding of clustering techniques in this [Learn module](https://docs.microsoft.com/learn/modules/train-evaluate-cluster-models?WT.mc_id=academic-15963-cxa)
+Deepen your understanding of clustering techniques in this [Learn module](https://docs.microsoft.com/learn/modules/train-evaluate-cluster-models?WT.mc_id=academic-77952-leestott)
 ## Getting started with clustering
 
 [Scikit-learn offers a large array](https://scikit-learn.org/stable/modules/clustering.html) of methods to perform clustering. The type you choose will depend on your use case. According to the documentation, each method has various benefits. Here is a simplified table of the methods supported by Scikit-learn and their appropriate use cases:
@@ -99,7 +99,7 @@ There are over 100 clustering algorithms, and their use depends on the nature of
 
 Clustering as a technique is greatly aided by proper visualization, so let's get started by visualizing our music data. This exercise will help us decide which of the methods of clustering we should most effectively use for the nature of this data.
 
-1. Open the _notebook.ipynb_ file in this folder.
+1. Open the [_notebook.ipynb_](https://github.com/microsoft/ML-For-Beginners/blob/main/5-Clustering/1-Visualize/notebook.ipynb) file in this folder.
 
 1. Import the `Seaborn` package for good data visualization.
 
@@ -107,7 +107,7 @@ Clustering as a technique is greatly aided by proper visualization, so let's get
     !pip install seaborn
     ```
 
-1. Append the song data from _nigerian-songs.csv_. Load up a dataframe with some data about the songs. Get ready to explore this data by importing the libraries and dumping out the data:
+1. Append the song data from [_nigerian-songs.csv_](https://github.com/microsoft/ML-For-Beginners/blob/main/5-Clustering/data/nigerian-songs.csv). Load up a dataframe with some data about the songs. Get ready to explore this data by importing the libraries and dumping out the data:
 
     ```python
     import matplotlib.pyplot as plt

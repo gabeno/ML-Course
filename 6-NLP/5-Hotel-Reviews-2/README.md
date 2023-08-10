@@ -202,7 +202,7 @@ Finally, and this is delightful (because it didn't take much processing at all),
 | Family  with older children                   | 26349  |
 | With a  pet                                   | 1405   |
 
-You could argue that `Travellers with friends` is the same as `Group` more or less, and that would be fair to combine the two as above. The code for identifying the correct tags is [the Tags notebook](solution/1-notebook.ipynb).
+You could argue that `Travellers with friends` is the same as `Group` more or less, and that would be fair to combine the two as above. The code for identifying the correct tags is [the Tags notebook](https://github.com/microsoft/ML-For-Beginners/blob/main/6-NLP/5-Hotel-Reviews-2/solution/1-notebook.ipynb).
 
 The final step is to create new columns for each of these tags. Then, for every review row, if the `Tag` column matches one of the new columns, add a 1, if not, add a 0. The end result will be a count of how many reviewers chose this hotel (in aggregate) for, say, business vs leisure, or to bring a pet to, and this is useful information when recommending a hotel.
 
@@ -347,13 +347,13 @@ print("Saving results to Hotel_Reviews_NLP.csv")
 df.to_csv(r"../data/Hotel_Reviews_NLP.csv", index = False)
 ```
 
-You should run the entire code for [the analysis notebook](solution/3-notebook.ipynb) (after you've run [your filtering notebook](solution/1-notebook.ipynb) to generate the Hotel_Reviews_Filtered.csv file).
+You should run the entire code for [the analysis notebook](https://github.com/microsoft/ML-For-Beginners/blob/main/6-NLP/5-Hotel-Reviews-2/solution/3-notebook.ipynb) (after you've run [your filtering notebook](https://github.com/microsoft/ML-For-Beginners/blob/main/6-NLP/5-Hotel-Reviews-2/solution/1-notebook.ipynb) to generate the Hotel_Reviews_Filtered.csv file).
 
 To review, the steps are:
 
-1. Original dataset file **Hotel_Reviews.csv** is explored in the previous lesson with [the explorer notebook](../4-Hotel-Reviews-1/solution/notebook.ipynb)
-2. Hotel_Reviews.csv is filtered by [the filtering notebook](solution/1-notebook.ipynb) resulting in **Hotel_Reviews_Filtered.csv**
-3. Hotel_Reviews_Filtered.csv is processed by [the sentiment analysis notebook](solution/3-notebook.ipynb) resulting in **Hotel_Reviews_NLP.csv**
+1. Original dataset file **Hotel_Reviews.csv** is explored in the previous lesson with [the explorer notebook](https://github.com/microsoft/ML-For-Beginners/blob/main/6-NLP/4-Hotel-Reviews-1/solution/notebook.ipynb)
+2. Hotel_Reviews.csv is filtered by [the filtering notebook](https://github.com/microsoft/ML-For-Beginners/blob/main/6-NLP/5-Hotel-Reviews-2/solution/1-notebook.ipynb) resulting in **Hotel_Reviews_Filtered.csv**
+3. Hotel_Reviews_Filtered.csv is processed by [the sentiment analysis notebook](https://github.com/microsoft/ML-For-Beginners/blob/main/6-NLP/5-Hotel-Reviews-2/solution/3-notebook.ipynb) resulting in **Hotel_Reviews_NLP.csv**
 4. Use Hotel_Reviews_NLP.csv in the NLP Challenge below
 
 ### Conclusion
@@ -368,7 +368,7 @@ Now that you have your dataset analyzed for sentiment, see if you can use strate
 
 ## Review & Self Study
 
-Take [this Learn module](https://docs.microsoft.com/en-us/learn/modules/classify-user-feedback-with-the-text-analytics-api/?WT.mc_id=academic-15963-cxa) to learn more and use different tools to explore sentiment in text.
+Take [this Learn module](https://docs.microsoft.com/en-us/learn/modules/classify-user-feedback-with-the-text-analytics-api/?WT.mc_id=academic-77952-leestott) to learn more and use different tools to explore sentiment in text.
 ## Assignment 
 
 [Try a different dataset](assignment.md)
